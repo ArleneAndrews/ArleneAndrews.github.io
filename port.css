@@ -1,0 +1,60 @@
+html {
+    background-color: white;
+}
+
+#centerblock {
+    list-style-type: none;
+    font-size: 150%;
+    display: inline;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#centerblock li {
+    display: inline;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: rgb(100, 245, 136);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#vanilla {
+    font-size: 300%;
+    text-align: center;
+}
+
+#center {
+    font-size: 200%;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#img {
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
