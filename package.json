@@ -1,0 +1,26 @@
+{
+  "name": "arleneandrews.github.io",
+  "version": "1.0.0",
+  "description": "portfolio website and tests",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "intern": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArleneAndrews/ArleneAndrews.github.io.git"
+  },
+  "author": "M. Arlene Andrews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArleneAndrews/ArleneAndrews.github.io/issues"
+  },
+  "homepage": "https://github.com/ArleneAndrews/ArleneAndrews.github.io#readme"
+}
