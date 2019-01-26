@@ -37,18 +37,18 @@ h1,h2 {
 }
 
 a:link {
-    color: red;
+    color: maroon;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: darkgreen;
 }
 
 
 /* mouse over link */
 a:hover {
-    color: rgb(100, 245, 136);
+    color: #006600;
 }
 
 /* selected link */
