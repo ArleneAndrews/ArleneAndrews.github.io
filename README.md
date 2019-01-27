@@ -1,6 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Website status](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://ArleneAndrews.github.io)
-[![Intern Framework](https://img.shields.io/badge/Testing%20Framework-Intern-orange.svg)](https://theintern.io)
+[![Testing](https://img.shields.io/badge/Tests-Jest-orange.svg)](https://jestjs.io)
+[![Testing2](https://img.shields.io/badge/Test-Selenium-orange.svg)](https://www.seleniumhq.org/)
 
 # Welcome to my portfolio! #
 

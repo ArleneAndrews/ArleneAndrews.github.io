@@ -7,11 +7,14 @@
     "test": "tests"
   },
   "dependencies": {
-    "intern": "^4.4.1"
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "jest": "^24.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    
+},
   "scripts": {
-    "test": "npx intern"
+    "test": "jest test"
   },
   "repository": {
     "type": "git",

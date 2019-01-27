@@ -1,9 +1,9 @@
-const { describe, it } = intern.getPlugin('interface.bdd');
-const { expect, assert } = intern.getPlugin('chai');
+import webdriver from selenium
+import By from selenium.webdriver.common.by
 
-describe('smoke test', () => {
-  it('stupid test', () =>{
-    assert.strictEqual(true, true, 'Yes, this works');
+describe('Framework smoke test', () => {
+  it('Basic asssert', () => {
+    expect(true).toEqual(true);
   })
 })
   
