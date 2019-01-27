@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://ArleneAndrews.github.io)
+[![Website status](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://ArleneAndrews.github.io)
+[![Intern Framework](https://img.shields.io/badge/Testing%20Framework-Intern-orange.svg)](https://github.com/theintern/intern)
+
 # Welcome to my portfolio! #
 
 
