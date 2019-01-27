@@ -56,6 +56,11 @@ a:active {
     color: blue;
 }
 
+#information {
+    font-size: 200%;
+    text-align: center;
+}
+
 #vanilla {
     font-size: 300%;
     text-align: center;
