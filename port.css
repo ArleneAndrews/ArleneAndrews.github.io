@@ -7,11 +7,6 @@ h2 {
     text-align: center;
 }
 
-.sidebar {
-    width: 25%;
-
-}
-
 #centerblock {
     list-style-type: none;
     font-size: 150%;
@@ -39,7 +34,6 @@ a:link {
 a:visited {
     color: darkgreen;
 }
-
 
 /* mouse over link */
 a:hover {
@@ -72,18 +66,6 @@ a:active {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-}
-
-.column {
-    float: left;
-    width: 20%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #container {
