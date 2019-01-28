@@ -4,7 +4,7 @@
   "description": "portfolio website and tests",
   "main": "index.html",
   "directories": {
-    "test": "tests"
+    "test": "__test__"
   },
   "dependencies": {
     "jest": "^24.0.0",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
