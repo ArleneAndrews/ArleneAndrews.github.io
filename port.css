@@ -2,13 +2,16 @@ html {
     background-color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
-div {
-    width: 70%
+.sidebar {
+    width: 25%;
+
 }
+
 #centerblock {
     list-style-type: none;
     font-size: 150%;
@@ -26,18 +29,6 @@ div {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-}
-
-#cblock {
-   border: none;
-}
-
-#cblock li {
-    list-style-position: inside;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
 }
 
 a:link {
@@ -85,20 +76,33 @@ a:active {
 
 .column {
     float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+    width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
 
-  
+#container {
+    margin: 0 auto;
+    /* This centers the page in modern browsers */
+    text-align: left;
+    /* This is a hack for older browsers to center the page */
+    width: 90%;
+    /* This sets our total page width */
+}
+
+#content {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#sidebar {
+    float: left;
+    /* This causes the sidebar to move to the left */
+    width: 20%;
+    /* We need to set the width whenever we float an element */
+}
