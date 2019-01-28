@@ -5,6 +5,10 @@ html {
 h1, h2 {
     text-align: center;
 }
+
+div {
+    width: 70%
+}
 #centerblock {
     list-style-type: none;
     font-size: 150%;

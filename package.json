@@ -7,13 +7,16 @@
     "test": "__test__"
   },
   "dependencies": {
+    "chromedriver": "^2.45.0",
+    "geckodriver": "^1.14.1",
     "jest": "^24.0.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "selenium-webdriver": "^3.6.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArleneAndrews/ArleneAndrews.github.io.git"
