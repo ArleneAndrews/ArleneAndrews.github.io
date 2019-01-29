@@ -6,7 +6,7 @@ require('geckodriver')
 
 const rootURL = 'https://arleneandrews.github.io'
 const d = new Builder().forBrowser('firefox').build()
-const waitUntilTime = 20000
+const waitUntilTime = 2000
 let driver, el, actual, expected
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 1000 * 60 * 5
 
@@ -19,10 +19,32 @@ async function getElementByXPath(xpath) {
   return await driver.wait(until.elementIsVisible(el), waitUntilTime)
 }
 
+beforeAll((done) => {
+  driver = new Builder().forBrowser('chrome').build();
 
-it('waits for the driver to start', () => {
-  return d.then(_d => {
-    driver = _d
-    driver.quit()
+  driver.get(rootURL).then(done);
+});
+
+
+afterAll((done) => {
+  driver.quit().then(done);
+});
+
+describe('Selenium load check',() => {
+  it('waits for the driver to start', () => {
+    return d.then(_d => {
+      driver = _d
+    })
+  })
+
+  it('initialises the context', async () => {
+    await driver.manage().window().setPosition(0, 0)
+    await driver.manage().window().setSize(1280, 1024)
+    await driver.get(rootURL)
+  })
+
+  it('Links show correctly - About', () => {
+    driver.findElement(By.id("centerblock"))
+    return console.log("found this one!")
   })
 })
