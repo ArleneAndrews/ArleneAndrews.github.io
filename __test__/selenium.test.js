@@ -19,12 +19,15 @@ async function getElementByXPath(xpath) {
   return await driver.wait(until.elementIsVisible(el), waitUntilTime)
 }
 
-beforeAll((done) => {
+beforeEach((done) => {
   driver = new Builder().forBrowser('chrome').build();
 
   driver.get(rootURL).then(done);
 });
 
+/* afterEach((done, 2000), => {
+  return driver.close();
+}); */
 
 afterAll((done) => {
   driver.quit().then(done);
