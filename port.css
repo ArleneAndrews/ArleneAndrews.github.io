@@ -68,14 +68,12 @@ a:active {
     margin-right: auto;
 }
 
-#container {
-    margin: 0 auto;
-    /* This centers the page in modern browsers */
-    text-align: left;
-    /* This is a hack for older browsers to center the page */
-    width: 90%;
-    /* This sets our total page width */
-}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+  }
 
 #content {
     margin-left: 30%;
