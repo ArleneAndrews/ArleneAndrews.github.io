@@ -45,11 +45,6 @@ a:active {
     color: blue;
 }
 
-#information {
-    font-size: 200%;
-    text-align: center;
-}
-
 #vanilla {
     font-size: 300%;
     text-align: center;
@@ -74,42 +69,6 @@ a:active {
     align-items: flex-start;
     align-content: space-between;
   }
-
-#content {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-#sidebar {
-    float: left;
-    /* This causes the sidebar to move to the left */
-    width: 20%;
-    /* We need to set the width whenever we float an element */
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-    
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
-
-  .column {
-    float: left;
-    width: 25%; 
-  }
-
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-} 
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
