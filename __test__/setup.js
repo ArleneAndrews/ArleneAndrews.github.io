@@ -19,10 +19,6 @@ async function getElementByXPath(xpath) {
   return await driver.wait(until.elementIsVisible(el), waitUntilTime)
 }
 
-const rootURL = 'http://localhost:8080';
-
-let driver;
-
 beforeEach((done) => {
   driver = new Builder().forBrowser('chrome').build();
 
