@@ -92,3 +92,25 @@ a:active {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+
+
+#four04-main {
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+  padding: 0; 
+  margin: 0;
+}
+
+#four04-content {
+    width: auto;
+    height: auto;
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+}
+
+.body-defaults {
+    padding: 0;
+    margin: 0;
+}
