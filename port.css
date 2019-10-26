@@ -45,9 +45,13 @@ a:active {
     color: blue;
 }
 
-#vanilla {
-    font-size: 300%;
+.title {
+    width: 100vw;
     text-align: center;
+}
+
+#vanilla {
+    font-size: 3em;
 }
 
 #center {
@@ -78,9 +82,35 @@ a:active {
     width: 150px;
 }
 
+.photos {
+    display: flex;
+}
+
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
     .left, .main, .right {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
+
+
+#four04-main {
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+  padding: 0; 
+  margin: 0;
+}
+
+#four04-content {
+    width: auto;
+    height: auto;
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+}
+
+.body-defaults {
+    padding: 0;
+    margin: 0;
+}
