@@ -1,116 +1,132 @@
 html {
-    background-color: white;
+  background-color: white;
+}
+
+body {
+  font-family: "Fira Sans", arial, sans-serif;
+  line-height: 1.65;
+  font-size: calc(14px + 0.25vw);
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto;
+  font-weight: 300;
+}
+@media all and (max-width: 1024px) {
+  body {
+    padding: 0 1em;
+  }
 }
 
 h1,
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #centerblock {
-    list-style-type: none;
-    font-size: 150%;
-    display: inline;
-    font-variant: small-caps;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  font-size: 150%;
+  display: inline;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 #centerblock li {
-    display: inline;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+  display: inline;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 a:link {
-    color: maroon;
+  color: maroon;
 }
 
 /* visited link */
 a:visited {
-    color: darkgreen;
+  color: darkgreen;
 }
 
 /* mouse over link */
 a:hover {
-    color: #006600;
+  color: #006600;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+  color: blue;
 }
 
 .title {
-    width: 100vw;
-    text-align: center;
+  width: 100vw;
+  text-align: center;
 }
 
 #vanilla {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 #center {
-    font-size: 200%;
-    font-variant: small-caps;
-    text-align: center;
+  font-size: 200%;
+  font-variant: small-caps;
+  text-align: center;
 }
 
 #img {
-    display: block;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: space-between;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-between;
+}
 
-  #img-bio {
-    display: block;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+#img-bio {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
 }
 
 .photos {
-    display: flex;
+  display: flex;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
+  .left,
+  .main,
+  .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-
+}
 
 #four04-main {
   background-color: gray;
   height: 100vh;
   width: 100vw;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 
 #four04-content {
-    width: auto;
-    height: auto;
-    font-size: 4em;
-    margin: auto;
-    text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 4em;
+  margin: auto;
+  text-align: center;
 }
 
 .body-defaults {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
