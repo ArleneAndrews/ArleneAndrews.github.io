@@ -7,9 +7,9 @@
     "test": "__test__"
   },
   "dependencies": {
-    "chromedriver": "^2.46.0",
+    "chromedriver": "^138.0.3",
     "geckodriver": "^1.16.2",
-    "jest": "^24.8.0",
+    "jest": "^30.0.4",
     "selenium-webdriver": "^3.6.0"
   },
   "devDependencies": {},
